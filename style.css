@@ -6,13 +6,30 @@
     box-sizing: border-box;
 }
 
-:root {
-    font-size: 100%;
-    /*16px*/
-}
+
+/* ? */
+
+:root {}
+
+
+/* layout*/
 
 #header {
     height: 4.5rem;
+}
+
+p {}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font: 400 1rem "DM sans", sans-serif;
+}
+
+h1 {
+    font: 400 1.875rem "poppins";
 }
 
 nav {
