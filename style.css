@@ -1,4 +1,4 @@
-/* RESET */
+/* ________ RESET __________*/
 
 * {
     margin: 0;
@@ -6,13 +6,24 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
-/* ? */
+a {
+    text-decoration: none;
+}
 
-:root {}
+
+/*___________ VARIABLES ___________*/
+
+:root {
+    --color: hsl(276, 89%, 44%);
+}
 
 
-/* layout*/
+/*__________ layout_____________*/
 
 #header {
     height: 4.5rem;
@@ -20,9 +31,8 @@
 
 p {}
 
-a {
-    text-decoration: none;
-}
+
+/*__________ BASE ____________*/
 
 body {
     font: 400 1rem "DM sans", sans-serif;
@@ -30,11 +40,16 @@ body {
 
 h1 {
     font: 400 1.875rem "poppins";
+    color: var(--color);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+.button {
+    color: var(--color);
 }
 
 .logo {}
